@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+    text-decoration-color: darkorange;
+}
+.parallax-inner{
+    display: ruby-text-container;
+    vertical-align: middle;
+}
+.www{
+    border-radius: 75%;
+    height: 75%;
+    width: 75%;
+}
+#section1{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient( #473dff 0%, #ff0000 100% );
+    display: ruby-base-container;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+h2{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: inherit;
+}
+#span{
+    font-size: 38px;
+    font-family: 'Shizuru', cursive;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: orange;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 8;
+    cursor:pointer ;
+}
+.links{
+    float: left;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+}
+a{
+    text-decoration: solid;
+}
+#contact{
+    background-color: chocolate;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact1 h3{
+    display: inline;
+}
